@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+ /*             header            */
+ .employeee-cnt{
+    min-height: 100vh;
+    width: 100%;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+ }
+   
+.header-cnt{
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box ;
+    height: 106px;
+    
+}
+.header-cnt-main{
+    padding-top: 32px;
+    margin-left: 188px;
+    display: flex;
+}
+
+
+.header-cnt-img{
+    width: 50px;
+    height: 47px;
+    margin-top: 3px;
+    opacity: 1;
+}
+.header-cnt-logo-txt{
+    display: flex;
+    flex-direction: column;
+}
+.header-cnt-employee{
+    width: 127px;
+    height: 27px;
+    text-align: left;
+    font: normal normal bold 22px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #82A70C;
+    text-transform: capitalize;
+}
+.header-cnt-payroll{
+    width: 107px;
+    height: 27px;
+    text-align: left;
+    font: normal normal bold 22px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #42515F;
+    text-transform: capitalize;
+}
+
+/* --------------- Registration Form-------  */
+
+.employee-reg-cnt{
+    margin-top: 27px;
+    margin-left: 192px;
+    /* margin-right: 397px; */
+    width: 1126px;
+    height: 911px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F5F5F5;
+    border-radius: 8px;
+}
+.employee-reg-cnt-items{
+    margin-left: 149px;
+    margin-right: 375px;
+    margin-top: 42px;
+}
+h1{
+    text-align: left;
+    font: normal normal bold 28px/37px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    text-transform: capitalize;
+}
+
+/* --------------forms---------- */
+#emp-form-cnt{
+    margin-top: 30px;
+}
+
+.name-field{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.name-field-input{
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    width: 445px;
+    height: 35px;
+    font-weight: 400;
+    font-size: medium;
+    padding-left: 10px;
+}
+.name-field-txt{
+    margin-right: 88px;
+    letter-spacing: 0px;
+    color: #42515F;
+    width: 48px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+}
+.profile-field{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+
+}
+.profile-field-input{
+    display: flex;
+    flex-direction: column;
+}
+.profile-field-txt{
+    margin-right: 55px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+}
+.radio-items{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile-field-radio{
+    display: flex;
+    gap: 10px;
+}
+/*   -------------- start field txt css---- */
+.field-txt{
+    width: 150px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+}
+/* ----------------End field txt----------------- */
+.gender-field{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.gender-field-items{
+    display: flex;
+    gap: 30px;
+
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+}
+.gender-field-input{
+    display: flex;
+    flex-direction: column;
+}
+.gender-field-txt{
+    margin-right: 90px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+}
+
+.department-field{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.department-field-input{
+    display: flex;
+    flex-direction: column;
+}
+.department-field-txt{
+    width: 150px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+}
+.department-field-items{
+    display: flex;
+    gap: 30px;
+
+    text-align: left;
+font: normal normal normal 18px/24px Roboto;
+letter-spacing: 0px;
+color: #42515F;
+}
+
+.salary-field{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.salary-field-input{
+    display: flex;
+    flex-direction: column;
+}
+.salary-field-txt{
+    width: 150px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+}
+.salary-field-items{
+    width: 300px;
+height: 35px;
+border: 1px solid #BDBDBD;
+border-radius: 3px;
+}
+
+#clr{
+    color: #42515F;
+}
+/* ---------------------Date---------------- */
+.date-field{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.date-field-items{
+    display: flex;
+    gap: 10px;
+}
+.date-field-input{
+    display: flex;
+    flex-direction: column;
+}
+.date-field-txt{
+    width: 150px;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+}
+.date-field-choose{
+    width: 138px;
+height: 35px;
+border: 1px solid #BDBDBD;
+border-radius: 3px;
+}
+
+.note-field{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    /* align-items: center; */
+}
+.note-input-field{
+    width: 445px;
+    height: 70px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+}
+
+/* -------------button------------------- */
+.button-cnt{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 140px;
+height: 45px;
+/* UI Properties */
+background: #E2E2E2 0% 0% no-repeat padding-box;
+border: 1px solid #969696;
+border-radius: 5px;
+color: #42515F;
+cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #42515F;
+}

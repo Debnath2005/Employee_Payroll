@@ -1,0 +1,71 @@
+{
+  "employee": [
+    {
+      "name": "Debnath Mondal",
+      "profile": "../assets/profile2.png",
+      "gender": "Male",
+      "department": [
+        "Sales",
+        "Finance"
+      ],
+      "salary": "200000-300000",
+      "startDate": {
+        "day": "15",
+        "month": "September",
+        "year": "2021"
+      },
+      "notes": "hi world",
+      "id": "c4c5"
+    },
+    {
+      "id": "daee",
+      "name": "somu sharma",
+      "profile": "../assets/profile2.png",
+      "gender": "Male",
+      "department": [
+        "HR",
+        "Sales"
+      ],
+      "salary": "200000-300000",
+      "startDate": {
+        "day": "16",
+        "month": "July",
+        "year": "2021"
+      },
+      "notes": "Hi, sonu"
+    },
+    {
+      "id": "c5e9",
+      "name": "ram kumar",
+      "profile": "../assets/profile4.png",
+      "gender": "Male",
+      "department": [
+        "Finance",
+        "Engineer"
+      ],
+      "salary": "300000-400000",
+      "startDate": {
+        "day": "18",
+        "month": "June",
+        "year": "2022"
+      },
+      "notes": "Hi, Ram"
+    },
+    {
+      "name": "Aditi pawar",
+      "profile": "../assets/profile1.png",
+      "gender": "Female",
+      "department": [
+        "Finance"
+      ],
+      "salary": "400000-500000",
+      "startDate": {
+        "day": "17",
+        "month": "April",
+        "year": "2024"
+      },
+      "notes": "hi ,Aditi",
+      "id": "121b"
+    }
+  ]
+}
